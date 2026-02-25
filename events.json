@@ -1,6 +1,87 @@
 [
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 106,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
+    "name": "CCH",
+    "abbreviation": "",
+    "date": 110,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Collingwood Library",
+    "fee": {
+      "cost": 5,
+      "notes": "Free if you BYOC"
+    },
+    "signupLink": "cchfgc.org",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 120,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
+    "name": "Big CCH",
+    "abbreviation": "",
+    "date": 124,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Collingwood Djerring Centre",
+    "fee": {
+      "cost": 5,
+      "notes": "Free if you BYOC"
+    },
+    "signupLink": "cchfgc.org",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 203,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "York Street Battles 114",
     "abbreviation": "YSB",
     "date": 207,
@@ -16,12 +97,13 @@
   },
   {
     "show": true,
+    "region": "AUS",
     "name": "CCH",
     "abbreviation": "",
     "date": 214,
     "duration": 1,
     "state": "VIC",
-    "location": "Collingwood Djerring Centre",
+    "location": "Collingwood Library",
     "fee": {
       "cost": 5,
       "notes": "Free if you BYOC"
@@ -31,6 +113,23 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 217,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "MegaLAN 2026: Armageddon",
     "abbreviation": "",
     "date": 221,
@@ -46,6 +145,23 @@
   },
   {
     "show": true,
+    "region": "NZ",
+    "name": "Auckland Ranbats 2026 Round 1",
+    "abbreviation": "",
+    "date": 221,
+    "duration": 1,
+    "state": "AKL",
+    "location": "Small Rave",
+    "fee": {
+      "cost": 15,
+      "notes": ""
+    },
+    "signupLink": "start.gg/tournament/auckland-ranbats-2026-round-1/details",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "RMIT Games Day 27",
     "abbreviation": "",
     "date": 222,
@@ -61,6 +177,23 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "The Iron Crown 30",
+    "abbreviation": "",
+    "date": 222,
+    "duration": 1,
+    "state": "WA",
+    "location": "Escape Portal Esports Lounge",
+    "fee": {
+      "cost": 10,
+      "notes": ""
+    },
+    "signupLink": "start.gg/tournament/the-iron-crown-30/details",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "Big CCH",
     "abbreviation": "",
     "date": 228,
@@ -76,6 +209,23 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 303,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "York Street Battles 115",
     "abbreviation": "YSB",
     "date": 307,
@@ -91,6 +241,7 @@
   },
   {
     "show": true,
+    "region": "AUS",
     "name": "CCH",
     "abbreviation": "",
     "date": 314,
@@ -106,6 +257,7 @@
   },
   {
     "show": true,
+    "region": "AUS",
     "name": "The Game Expo 2026",
     "abbreviation": "TGX",
     "date": 314,
@@ -121,6 +273,23 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 317,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "The Wild West",
     "abbreviation": "WW",
     "date": 327,
@@ -136,6 +305,7 @@
   },
   {
     "show": true,
+    "region": "AUS",
     "name": "Big CCH",
     "abbreviation": "",
     "date": 328,
@@ -151,12 +321,29 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 331,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": true
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "CCH",
     "abbreviation": "",
     "date": 411,
     "duration": 1,
     "state": "VIC",
-    "location": "Collingwood Djerring Centre",
+    "location": "Collingwood Library",
     "fee": {
       "cost": 5,
       "notes": "Free if you BYOC"
@@ -166,6 +353,7 @@
   },
   {
     "show": true,
+    "region": "AUS",
     "name": "York Street Battles 116",
     "abbreviation": "YSB",
     "date": 411,
@@ -181,6 +369,23 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 414,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "Big CCH",
     "abbreviation": "",
     "date": 425,
@@ -196,12 +401,29 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 428,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "CCH",
     "abbreviation": "",
     "date": 509,
     "duration": 1,
     "state": "VIC",
-    "location": "Collingwood Djerring Centre",
+    "location": "Collingwood Library",
     "fee": {
       "cost": 5,
       "notes": "Free if you BYOC"
@@ -211,6 +433,7 @@
   },
   {
     "show": true,
+    "region": "AUS",
     "name": "York Street Battles 117",
     "abbreviation": "YSB",
     "date": 509,
@@ -226,6 +449,23 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 512,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": true
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "Big CCH",
     "abbreviation": "",
     "date": 523,
@@ -241,27 +481,45 @@
   },
   {
     "show": true,
-    "name": "Battle Arena Melbourne 16",
-    "abbreviation": "BAM",
-    "date": 529,
-    "duration": 3,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 526,
+    "duration": 1,
     "state": "VIC",
-    "location": "Bundha Sports Centre",
+    "location": "Pixel Bar & Cafe",
     "fee": {
-      "cost": 60,
-      "notes": "Early Bird Price Until April 4th"
+      "cost": 0,
+      "notes": ""
     },
-    "signupLink": "start.gg/bam16",
-    "major": true
+    "signupLink": "",
+    "major": false
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 609,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "CCH",
     "abbreviation": "",
     "date": 613,
     "duration": 1,
     "state": "VIC",
-    "location": "Collingwood Djerring Centre",
+    "location": "Collingwood Library",
     "fee": {
       "cost": 5,
       "notes": "Free if you BYOC"
@@ -271,6 +529,7 @@
   },
   {
     "show": true,
+    "region": "AUS",
     "name": "York Street Battles 118",
     "abbreviation": "YSB",
     "date": 613,
@@ -286,6 +545,23 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 623,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "Big CCH",
     "abbreviation": "",
     "date": 627,
@@ -301,12 +577,61 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 707,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
+    "name": "Battle Arena Melbourne 16",
+    "abbreviation": "BAM",
+    "date": 710,
+    "duration": 3,
+    "state": "VIC",
+    "location": "Bundha Sports Centre",
+    "fee": {
+      "cost": 60,
+      "notes": "Early Bird Price Until April 4th"
+    },
+    "signupLink": "start.gg/bam16",
+    "major": true
+  },
+  {
+    "show": true,
+    "region": "NZ",
+    "name": "Second Wind 2026",
+    "abbreviation": "",
+    "date": 710,
+    "duration": 3,
+    "state": "WLG",
+    "location": "Respawn Esports Centre",
+    "fee": {
+      "cost": -1,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": true
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "CCH",
     "abbreviation": "",
     "date": 711,
     "duration": 1,
     "state": "VIC",
-    "location": "Collingwood Djerring Centre",
+    "location": "Collingwood Library",
     "fee": {
       "cost": 5,
       "notes": "Free if you BYOC"
@@ -316,6 +641,7 @@
   },
   {
     "show": true,
+    "region": "AUS",
     "name": "York Street Battles 119",
     "abbreviation": "YSB",
     "date": 711,
@@ -331,6 +657,23 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 721,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "Big CCH",
     "abbreviation": "",
     "date": 725,
@@ -346,12 +689,29 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 804,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "CCH",
     "abbreviation": "",
     "date": 808,
     "duration": 1,
     "state": "VIC",
-    "location": "Collingwood Djerring Centre",
+    "location": "Collingwood Library",
     "fee": {
       "cost": 5,
       "notes": "Free if you BYOC"
@@ -361,6 +721,7 @@
   },
   {
     "show": true,
+    "region": "AUS",
     "name": "York Street Battles 120",
     "abbreviation": "YSB",
     "date": 808,
@@ -376,6 +737,23 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 818,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "Big CCH",
     "abbreviation": "",
     "date": 822,
@@ -391,12 +769,29 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 901,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "CCH",
     "abbreviation": "",
     "date": 912,
     "duration": 1,
     "state": "VIC",
-    "location": "Collingwood Djerring Centre",
+    "location": "Collingwood Library",
     "fee": {
       "cost": 5,
       "notes": "Free if you BYOC"
@@ -406,6 +801,7 @@
   },
   {
     "show": true,
+    "region": "AUS",
     "name": "York Street Battles 121",
     "abbreviation": "YSB",
     "date": 912,
@@ -421,6 +817,23 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 915,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "Big CCH",
     "abbreviation": "",
     "date": 926,
@@ -436,12 +849,29 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 929,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "CCH",
     "abbreviation": "",
     "date": 1010,
     "duration": 1,
     "state": "VIC",
-    "location": "Collingwood Djerring Centre",
+    "location": "Collingwood Library",
     "fee": {
       "cost": 5,
       "notes": "Free if you BYOC"
@@ -451,6 +881,7 @@
   },
   {
     "show": true,
+    "region": "AUS",
     "name": "York Street Battles 122",
     "abbreviation": "YSB",
     "date": 1010,
@@ -466,6 +897,23 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 1013,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "Big CCH",
     "abbreviation": "",
     "date": 1024,
@@ -476,17 +924,50 @@
       "cost": 5,
       "notes": "Free if you BYOC"
     },
-    "signupLink": "cchfgc.org",
+    "signupLink": "start.gg/ysb124",
     "major": false
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 1027,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 1110,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "CCH",
     "abbreviation": "",
     "date": 1114,
     "duration": 1,
     "state": "VIC",
-    "location": "Collingwood Djerring Centre",
+    "location": "Collingwood Library",
     "fee": {
       "cost": 5,
       "notes": "Free if you BYOC"
@@ -496,6 +977,7 @@
   },
   {
     "show": true,
+    "region": "AUS",
     "name": "York Street Battles 123",
     "abbreviation": "YSB",
     "date": 1114,
@@ -511,6 +993,23 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 1124,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "start.gg/ysb124",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "Big CCH",
     "abbreviation": "",
     "date": 1128,
@@ -526,6 +1025,23 @@
   },
   {
     "show": true,
+    "region": "AUS",
+    "name": "Pixel Plug & Play",
+    "abbreviation": "",
+    "date": 1208,
+    "duration": 1,
+    "state": "VIC",
+    "location": "Pixel Bar & Cafe",
+    "fee": {
+      "cost": 0,
+      "notes": ""
+    },
+    "signupLink": "",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
     "name": "End of Year CCH",
     "abbreviation": "",
     "date": 1212,
@@ -541,6 +1057,7 @@
   },
   {
     "show": true,
+    "region": "AUS",
     "name": "York Street Battles 124",
     "abbreviation": "YSB",
     "date": 1212,
@@ -551,22 +1068,55 @@
       "cost": 20,
       "notes": "Game Entry Fees Separate"
     },
-    "signupLink": "start.gg/ysb124",
+    "signupLink": "",
     "major": false
   },
   {
     "show": true,
-    "name": "The Iron Crown 30",
+    "region": "AUS",
+    "name": "Burning Knuckle 15",
     "abbreviation": "",
-    "date": 222,
+    "date": 214,
     "duration": 1,
-    "state": "WA",
-    "location": "Escape Portal Esports Lounge",
+    "state": "ACT",
+    "location": "Marie Reay Teaching Centre, ANU",
     "fee": {
       "cost": 10,
-      "notes": ""
+      "notes": "$5 discount for ANUFGC members"
     },
-    "signupLink": "start.gg/tournament/the-iron-crown-30/details",
+    "signupLink": "start.gg/tournament/burning-knuckle-15/details",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
+    "name": "Dancing Blade 62",
+    "abbreviation": "",
+    "date": 221,
+    "duration": 1,
+    "state": "ACT",
+    "location": "Marie Reay Teaching Centre, ANU",
+    "fee": {
+      "cost": 10,
+      "notes": "$5 discount for ANUFGC members"
+    },
+    "signupLink": "start.gg/tournament/dancing-blade-62/details",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
+    "name": "Fighting Spirits",
+    "abbreviation": "",
+    "date": 219,
+    "duration": 1,
+    "state": "QLD",
+    "location": "Netherworld Bar",
+    "fee": {
+      "cost": 10,
+      "notes": "18+ Venue, Parent or Legal Guardian Required for Minors"
+    },
+    "signupLink": "start.gg/tournament/fighting-spirits-netherworld-casual-fighting-games-february-2026/details",
     "major": false
   }
 ]

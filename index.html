@@ -1,8 +1,10 @@
 <head>
     <title></title>
-    <meta content="Embed Title" property="og:title" />
+    <meta content="OCEFGC Calendar" property="og:title" />
     <meta content="Site Description" property="og:description" />
     <meta content="#43B581" data-react-helmet="true" name="theme-color" />
+    <meta content="500" property="og:width">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
 </head>
 <body>
     <div class="title"></div>
@@ -347,22 +349,52 @@
         cursor: default;
     }
 
+    .ACT {
+        background-color: rgba(43, 227, 227, 0.2);
+        color: #2be3e3;
+        border-color: #2be3e3;
+    }
+
+    .AKL {
+        background-color: rgba(227, 147, 43, 0.2);
+        color: #e3932b;
+        border-color: #e3932b;
+    }
+
     .NSW {
-        background-color: rgba(43, 227, 150, 0.2);
+        background-color: #1bc45b33;
+        color: #1bc45b;
+        border-color: #1bc45b;
+    }
+
+    .QLD {
+        background-color: #e7c32333;
+        color: #e7c323;
+        border-color: #e7c323;
+    }
+
+    .SA {
+        background-color: #2be39633;
         color: #2be396;
         border-color: #2be396;
     }
 
     .VIC {
-        background-color: rgba(66, 135, 245, 0.2);
+        background-color: #4287f533;
         color: #4287f5;
         border-color: #4287f5;
     }
 
     .WA {
-        background-color: rgba(240, 69, 60, 0.2);
+        background-color: #f0453c33;
         color: #f0453c;
         border-color: #f0453c;
+    }
+
+    .WLG {
+        background-color: #db345833;
+        color: #db3458;
+        border-color: #db3458;
     }
 
     /* #endregion */
@@ -481,14 +513,14 @@
     .event-body {
         text-align: right;
         font-size: 38px;
-        padding: 30px 40px;
+        padding: 30px 25px;
         transition: opacity 0.2s ease-in-out; 
     }
 
     .event-body > div {
         color: #f1f2f1;
         font-family: 'Shapiro 75 Heavy Text'; 
-        padding: 15px 30px;
+        padding: 15px 20px;
     }
 
     .date-wrapper {
@@ -541,6 +573,7 @@
         font-size: 2vh;
         color: #f1f2f1;
         margin-left: auto;
+        padding-bottom: 1.5vh;
     }
 
     .qr {
@@ -558,9 +591,12 @@
     /* #endregion */
     
 </style>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 <script>
+
+    var URL = new URL(window.location.href);
+    var hash = URL.hash;
+    console.log(hash);
 
     //#region Dropdown
 
@@ -587,7 +623,7 @@
             }
             var dropdowns = document.getElementsByClassName("show-dropdown");
             if (dropdowns.length == 0) {
-                document.getElementById("dropdown").style.height = "0px";
+                document.getElementById(currentDropdown).parentElement.style.height = "0px";
             }
         }
     }
@@ -641,9 +677,10 @@
 
     function GoToToday() {
         currentEventIndex = soonestEventIndex;
+        currentMonth = today.getMonth() + 1;
 
         UpdateDisplay();
-        UpdateTimeline(today.getMonth() + 1);
+        UpdateTimeline(currentMonth);
     }
 
     var displayedMonth = 0;
@@ -664,7 +701,7 @@
 
             timelineDOM.innerHTML = "";
 
-            for (i = 0; i < (new Date(today.getFullYear(), month, 0).getDate()); i++) {
+            for (var i = 0; i < (new Date(today.getFullYear(), month, 0).getDate()); i++) {
                 var newDayDOM = document.createElement('div');
                 newDayDOM.classList.add('day-container');
                 newDayDOM.id = "day-" + (i + 1);
@@ -809,7 +846,14 @@
                         
             }
 
-            document.getElementById("fee-price").innerHTML = "$" + eventsData[currentEventIndex].fee.cost;
+            if(eventsData[currentEventIndex].fee.cost == -1) {
+                document.getElementById("fee-price").innerHTML = "Price: TBD";
+            } else if (eventsData[currentEventIndex].fee.cost == 0) {
+                document.getElementById("fee-price").innerHTML = "Free Entry";
+            } else {
+                document.getElementById("fee-price").innerHTML = "$" + eventsData[currentEventIndex].fee.cost;
+            }
+            
             if (eventsData[currentEventIndex].fee.notes != "")
             {
                 document.getElementById("fee-notes").style = ""
@@ -848,6 +892,51 @@
 
     //#endregion
 
+    //#region Sidenav
+
+    document.body.addEventListener("click", (event) => {
+        if(event.target.id == "sidenav")
+            return;
+        if(event.target.id == "sidenav-open")
+            return;
+        if(event.target.closest('.sidenav-open'))
+            return;
+        if(event.target.closest('.sidenav'))
+            return;
+
+        closeSideNav();
+    });
+
+    // var screenSize = document.createElement("a");
+    // screenSize.innerHTML = window.innerWidth + ":" + screen.width;
+    // document.getElementById("sidenav").appendChild(screenSize);
+    
+    function openSideNav() {
+        document.getElementById("sidenav").style.width = "400px";
+        if ((window.innerWidth / window.innerHeight) < 1) {
+            document.getElementById("sidenav").style.width = "100%";
+        }
+    }
+
+    function closeSideNav() {
+        document.getElementById("sidenav").style.width = "0px";
+    }
+
+    //#endregion
+
+</script>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@latest/examples/jsm/"
+  }
+}
+</script>
+<script type="module">
+    import * as THREE from 'three';
+    import { CSS3DRenderer } from 'three/addons/renderers/CSS3DRenderer.js';
+
     //#region THREEjs Background
 
     const scene = new THREE.Scene();
@@ -882,6 +971,8 @@
     group.rotation.z = THREE.MathUtils.degToRad(-15);
     group.rotation.x = THREE.MathUtils.degToRad(-50);
 
+    //#endregion
+
     const clock = new THREE.Clock();
 
     function animate() {
@@ -899,39 +990,5 @@
     }
 
     window.addEventListener('resize', onWindowResize, false);
-
-    //#endregion
-
-    //#region Sidenav
-
-    document.body.addEventListener("click", (event) => {
-        if(event.target.id == "sidenav")
-            return;
-        if(event.target.id == "sidenav-open")
-            return;
-        if(event.target.closest('.sidenav-open'))
-            return;
-        if(event.target.closest('.sidenav'))
-            return;
-
-        closeSideNav();
-    });
-
-    // var screenSize = document.createElement("a");
-    // screenSize.innerHTML = window.innerWidth + ":" + window.innerHeight;
-    // document.getElementById("sidenav").appendChild(screenSize);
-    
-    function openSideNav() {
-        document.getElementById("sidenav").style.width = "400px";
-        if ((window.innerWidth / window.innerHeight) < 1) {
-            document.getElementById("sidenav").style.width = "100%";
-        }
-    }
-
-    function closeSideNav() {
-        document.getElementById("sidenav").style.width = "0px";
-    }
-
-    //#endregion
 
 </script>
