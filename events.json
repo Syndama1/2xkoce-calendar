@@ -87,12 +87,28 @@
     "date": 207,
     "duration": 1,
     "state": "NSW",
-    "location": "Bankstown Sportsclub",
+    "location": "Club York ",
     "fee": {
       "cost": 20,
       "notes": "Game Entry Fees Separate"
     },
     "signupLink": "start.gg/ysb114",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
+    "name": "Burning Knuckle 15",
+    "abbreviation": "",
+    "date": 214,
+    "duration": 1,
+    "state": "ACT",
+    "location": "Marie Reay Teaching Centre, ANU",
+    "fee": {
+      "cost": 10,
+      "notes": "$5 discount for ANUFGC members"
+    },
+    "signupLink": "start.gg/tournament/burning-knuckle-15/details",
     "major": false
   },
   {
@@ -130,17 +146,17 @@
   {
     "show": true,
     "region": "AUS",
-    "name": "MegaLAN 2026: Armageddon",
+    "name": "Fighting Spirits",
     "abbreviation": "",
-    "date": 221,
-    "duration": 2,
-    "state": "NSW",
-    "location": "Tyree Energy Technologies Building",
+    "date": 219,
+    "duration": 1,
+    "state": "QLD",
+    "location": "Netherworld Bar",
     "fee": {
       "cost": 10,
-      "notes": "Single Day Price, Game Entry Fees Separate"
+      "notes": "18+ Venue, Parent or Legal Guardian Required for Minors"
     },
-    "signupLink": "start.gg/tournament/megalan-2026-armageddon/details",
+    "signupLink": "start.gg/tournament/fighting-spirits-netherworld-casual-fighting-games-february-2026/details",
     "major": false
   },
   {
@@ -157,6 +173,38 @@
       "notes": ""
     },
     "signupLink": "start.gg/tournament/auckland-ranbats-2026-round-1/details",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
+    "name": "Dancing Blade 62",
+    "abbreviation": "",
+    "date": 221,
+    "duration": 1,
+    "state": "ACT",
+    "location": "Marie Reay Teaching Centre, ANU",
+    "fee": {
+      "cost": 10,
+      "notes": "$5 discount for ANUFGC members"
+    },
+    "signupLink": "start.gg/tournament/dancing-blade-62/details",
+    "major": false
+  },
+  {
+    "show": true,
+    "region": "AUS",
+    "name": "MegaLAN 2026: Armageddon",
+    "abbreviation": "",
+    "date": 221,
+    "duration": 2,
+    "state": "NSW",
+    "location": "Tyree Energy Technologies Building",
+    "fee": {
+      "cost": 10,
+      "notes": "Single Day Price, Game Entry Fees Separate"
+    },
+    "signupLink": "start.gg/tournament/megalan-2026-armageddon/details",
     "major": false
   },
   {
@@ -231,7 +279,7 @@
     "date": 307,
     "duration": 1,
     "state": "NSW",
-    "location": "Bankstown Sportsclub",
+    "location": "Club York ",
     "fee": {
       "cost": 20,
       "notes": "Game Entry Fees Separate"
@@ -359,7 +407,7 @@
     "date": 411,
     "duration": 1,
     "state": "NSW",
-    "location": "Bankstown Sportsclub",
+    "location": "Club York ",
     "fee": {
       "cost": 20,
       "notes": "Game Entry Fees Separate"
@@ -439,7 +487,7 @@
     "date": 509,
     "duration": 1,
     "state": "NSW",
-    "location": "Bankstown Sportsclub",
+    "location": "Club York ",
     "fee": {
       "cost": 20,
       "notes": "Game Entry Fees Separate"
@@ -535,7 +583,7 @@
     "date": 613,
     "duration": 1,
     "state": "NSW",
-    "location": "Bankstown Sportsclub",
+    "location": "Club York ",
     "fee": {
       "cost": 20,
       "notes": "Game Entry Fees Separate"
@@ -647,7 +695,7 @@
     "date": 711,
     "duration": 1,
     "state": "NSW",
-    "location": "Bankstown Sportsclub",
+    "location": "Club York ",
     "fee": {
       "cost": 20,
       "notes": "Game Entry Fees Separate"
@@ -727,7 +775,7 @@
     "date": 808,
     "duration": 1,
     "state": "NSW",
-    "location": "Bankstown Sportsclub",
+    "location": "Club York ",
     "fee": {
       "cost": 20,
       "notes": "Game Entry Fees Separate"
@@ -807,7 +855,7 @@
     "date": 912,
     "duration": 1,
     "state": "NSW",
-    "location": "Bankstown Sportsclub",
+    "location": "Club York ",
     "fee": {
       "cost": 20,
       "notes": "Game Entry Fees Separate"
@@ -887,7 +935,7 @@
     "date": 1010,
     "duration": 1,
     "state": "NSW",
-    "location": "Bankstown Sportsclub",
+    "location": "Club York ",
     "fee": {
       "cost": 20,
       "notes": "Game Entry Fees Separate"
@@ -983,7 +1031,7 @@
     "date": 1114,
     "duration": 1,
     "state": "NSW",
-    "location": "Bankstown Sportsclub",
+    "location": "Club York ",
     "fee": {
       "cost": 20,
       "notes": "Game Entry Fees Separate"
@@ -1063,60 +1111,12 @@
     "date": 1212,
     "duration": 1,
     "state": "NSW",
-    "location": "Bankstown Sportsclub",
+    "location": "Club York ",
     "fee": {
       "cost": 20,
       "notes": "Game Entry Fees Separate"
     },
     "signupLink": "",
-    "major": false
-  },
-  {
-    "show": true,
-    "region": "AUS",
-    "name": "Burning Knuckle 15",
-    "abbreviation": "",
-    "date": 214,
-    "duration": 1,
-    "state": "ACT",
-    "location": "Marie Reay Teaching Centre, ANU",
-    "fee": {
-      "cost": 10,
-      "notes": "$5 discount for ANUFGC members"
-    },
-    "signupLink": "start.gg/tournament/burning-knuckle-15/details",
-    "major": false
-  },
-  {
-    "show": true,
-    "region": "AUS",
-    "name": "Dancing Blade 62",
-    "abbreviation": "",
-    "date": 221,
-    "duration": 1,
-    "state": "ACT",
-    "location": "Marie Reay Teaching Centre, ANU",
-    "fee": {
-      "cost": 10,
-      "notes": "$5 discount for ANUFGC members"
-    },
-    "signupLink": "start.gg/tournament/dancing-blade-62/details",
-    "major": false
-  },
-  {
-    "show": true,
-    "region": "AUS",
-    "name": "Fighting Spirits",
-    "abbreviation": "",
-    "date": 219,
-    "duration": 1,
-    "state": "QLD",
-    "location": "Netherworld Bar",
-    "fee": {
-      "cost": 10,
-      "notes": "18+ Venue, Parent or Legal Guardian Required for Minors"
-    },
-    "signupLink": "start.gg/tournament/fighting-spirits-netherworld-casual-fighting-games-february-2026/details",
     "major": false
   }
 ]
